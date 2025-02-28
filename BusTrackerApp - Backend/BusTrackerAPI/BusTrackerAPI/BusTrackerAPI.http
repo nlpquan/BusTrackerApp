@@ -1,0 +1,6 @@
+@BusTrackerAPI_HostAddress = http://localhost:5000
+
+GET {{BusTrackerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
