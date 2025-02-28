@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace BusTracker___Backend.Controllers
+namespace BusTrackerBackend.Controllers
 {
     [ApiController]
     [Route("[controller]")]
