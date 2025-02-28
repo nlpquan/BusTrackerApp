@@ -1,4 +1,4 @@
-namespace BusTracker___Backend
+namespace BusTrackerBackend
 {
     public class WeatherForecast
     {
