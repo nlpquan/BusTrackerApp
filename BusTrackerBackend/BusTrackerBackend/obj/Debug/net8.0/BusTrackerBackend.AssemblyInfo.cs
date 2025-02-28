@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BusTrackerBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea4eed989fc28d7fe50b42d945306531ee234e89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c38b0bbc2bc6c5b0f41d857f680b9546791302a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BusTrackerBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BusTrackerBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
