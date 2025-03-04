@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "BusTrackerBackend\\Program.cs",
               "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Program.cs",
               "RelativeToolTip": "BusTrackerBackend\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T02:45:40.056Z",
               "EditorCaption": ""
@@ -47,8 +51,7 @@
               "RelativeToolTip": "BusTrackerBackend\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-01T08:24:51.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T08:24:51.977Z"
             },
             {
               "$type": "Document",
@@ -58,7 +61,7 @@
               "RelativeDocumentMoniker": "BusTrackerBackend\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Properties\\launchSettings.json",
               "RelativeToolTip": "BusTrackerBackend\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-28T02:23:38.538Z",
               "EditorCaption": ""
