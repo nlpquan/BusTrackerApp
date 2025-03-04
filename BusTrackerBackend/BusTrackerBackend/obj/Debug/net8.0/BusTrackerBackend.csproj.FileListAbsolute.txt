@@ -1,0 +1,6 @@
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\obj\Debug\net8.0\BusTrackerBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\obj\Debug\net8.0\BusTrackerBackend.AssemblyInfoInputs.cache
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\obj\Debug\net8.0\BusTrackerBackend.AssemblyInfo.cs
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\obj\Debug\net8.0\BusTrackerBackend.csproj.CoreCompileInputs.cache
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\obj\Debug\net8.0\BusTrackerBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\obj\Debug\net8.0\BusTrackerBackend.sourcelink.json
