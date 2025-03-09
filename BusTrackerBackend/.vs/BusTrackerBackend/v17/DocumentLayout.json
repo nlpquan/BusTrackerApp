@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\bustrackerbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\bustrackerbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,92 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Program.cs",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Program.cs",
-              "RelativeToolTip": "BusTrackerBackend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T02:45:40.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "BusTrackerBackend\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCQAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T23:55:33.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250308223448_DatabaseCreationAndInitialSeed.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs",
-              "RelativeToolTip": "BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:34:48.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250308223635_DatabaseCreation.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs",
-              "RelativeToolTip": "BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:36:35.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BusTrackerBackend.csproj",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\BusTrackerBackend.csproj",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\BusTrackerBackend.csproj",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\BusTrackerBackend.csproj",
-              "RelativeToolTip": "BusTrackerBackend\\BusTrackerBackend.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-04T04:15:04.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\appsettings.Development.json",
-              "RelativeToolTip": "BusTrackerBackend\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-01T08:24:51.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "BusTrackerBackend\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-28T02:23:38.538Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

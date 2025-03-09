@@ -1,0 +1,17 @@
+/* homepage.component.css */
+.homepage-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .search-container {
+    width: 40%; /* Adjust as needed */
+  }
+  
+  .map-container {
+    width: 55%; /* Adjust as needed */
+    height: 500px; /* Set a fixed height for the map */
+  }
+  
