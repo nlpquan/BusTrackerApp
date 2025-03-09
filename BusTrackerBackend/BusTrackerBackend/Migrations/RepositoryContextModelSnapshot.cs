@@ -32,11 +32,8 @@ namespace BusTrackerBackend.Migrations
                     b.Property<int>("Capacity")
                         .HasColumnType("int");
 
-                    b.Property<double>("CurrentLatitude")
-                        .HasColumnType("float");
-
-                    b.Property<double>("CurrentLongitude")
-                        .HasColumnType("float");
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Model")
                         .IsRequired()
@@ -51,39 +48,71 @@ namespace BusTrackerBackend.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Buses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870"),
+                            Capacity = 50,
+                            IsActive = true,
+                            Model = "Toyota",
+                            PlateNumber = "FB23CA"
+                        },
+                        new
+                        {
+                            Id = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce3"),
+                            Capacity = 40,
+                            IsActive = false,
+                            Model = "Hyundai",
+                            PlateNumber = "FB123"
+                        });
                 });
 
-            modelBuilder.Entity("Entities.Models.BusStop", b =>
+            modelBuilder.Entity("Entities.Models.BusLocation", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasColumnName("BusStopId");
+                        .HasColumnName("LocationId");
+
+                    b.Property<Guid>("BusId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<double>("Latitude")
                         .HasColumnType("float");
 
-                    b.Property<double>("Longtitude")
+                    b.Property<double>("Longitude")
                         .HasColumnType("float");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(60)
-                        .HasColumnType("nvarchar(60)");
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.ToTable("BusStops");
+                    b.HasIndex("BusId")
+                        .IsUnique();
+
+                    b.ToTable("BusLocations");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("d8c7b6a5-9e8d-1234-5678-90abcdef1234"),
+                            BusId = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870"),
+                            Latitude = 40.730609999999999,
+                            Longitude = -73.935242000000002,
+                            Timestamp = new DateTime(2024, 10, 27, 10, 0, 0, 0, DateTimeKind.Utc)
+                        });
                 });
 
-            modelBuilder.Entity("Entities.Models.Route", b =>
+            modelBuilder.Entity("Entities.Models.BusRoute", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
                         .HasColumnName("RouteId");
 
-                    b.Property<Guid?>("BusesId")
+                    b.Property<Guid?>("BusId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("EndPoint")
@@ -103,116 +132,156 @@ namespace BusTrackerBackend.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BusesId");
+                    b.HasIndex("BusId");
 
-                    b.ToTable("Routes");
+                    b.ToTable("BusRoutes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("f4e3d2c1-b6a5-789a-9012-3456789abcd1"),
+                            EndPoint = "Central Park",
+                            Name = "Downtown Express",
+                            StartPoint = "Downtown Station"
+                        });
                 });
 
-            modelBuilder.Entity("Entities.Models.RouteStop", b =>
+            modelBuilder.Entity("Entities.Models.BusSchedule", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasColumnName("RouteStopId");
+                        .HasColumnName("ScheduleId");
 
-                    b.Property<Guid>("BusStopId")
+                    b.Property<DateTime>("ArrivalTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("BusId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("BusStopOrder")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("DepartureTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<Guid>("RouteId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BusStopId");
+                    b.HasIndex("BusId");
 
                     b.HasIndex("RouteId");
 
-                    b.ToTable("RouteStops");
+                    b.ToTable("BusSchedules");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("e7d6c5b4-a3b2-567a-9012-3456789abcd2"),
+                            ArrivalTime = new DateTime(2024, 10, 27, 12, 0, 0, 0, DateTimeKind.Utc),
+                            BusId = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870"),
+                            DepartureTime = new DateTime(2024, 10, 27, 11, 0, 0, 0, DateTimeKind.Utc),
+                            RouteId = new Guid("f4e3d2c1-b6a5-789a-9012-3456789abcd1")
+                        });
                 });
 
-            modelBuilder.Entity("Entities.Models.TrackingHistory", b =>
+            modelBuilder.Entity("Entities.Models.BusStop", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasColumnName("TrackingId");
+                        .HasColumnName("BusStopId");
 
-                    b.Property<Guid>("BusId")
+                    b.Property<Guid?>("BusRouteId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<double>("Latitude")
                         .HasColumnType("float");
 
-                    b.Property<double>("Longtitude")
+                    b.Property<double>("Longitude")
                         .HasColumnType("float");
 
-                    b.Property<DateTime>("TimeStamp")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BusId");
+                    b.HasIndex("BusRouteId");
 
-                    b.ToTable("TrackingHistories");
+                    b.ToTable("BusStops");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("a1a9b2c3-d4e5-678f-9012-3456789abcde"),
+                            Latitude = 40.712775999999998,
+                            Longitude = -74.005973999999995,
+                            Name = "Downtown Station"
+                        },
+                        new
+                        {
+                            Id = new Guid("b2b9c2d3-e4f5-678a-9012-3456789abcdf"),
+                            Latitude = 40.785091000000001,
+                            Longitude = -73.968284999999995,
+                            Name = "Central Park"
+                        });
                 });
 
-            modelBuilder.Entity("Entities.Models.Route", b =>
+            modelBuilder.Entity("Entities.Models.BusLocation", b =>
                 {
-                    b.HasOne("Entities.Models.Bus", "Buses")
+                    b.HasOne("Entities.Models.Bus", "Bus")
+                        .WithOne("Location")
+                        .HasForeignKey("Entities.Models.BusLocation", "BusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Bus");
+                });
+
+            modelBuilder.Entity("Entities.Models.BusRoute", b =>
+                {
+                    b.HasOne("Entities.Models.Bus", null)
                         .WithMany("Routes")
-                        .HasForeignKey("BusesId");
-
-                    b.Navigation("Buses");
+                        .HasForeignKey("BusId");
                 });
 
-            modelBuilder.Entity("Entities.Models.RouteStop", b =>
+            modelBuilder.Entity("Entities.Models.BusSchedule", b =>
                 {
-                    b.HasOne("Entities.Models.BusStop", "BusStops")
-                        .WithMany("RouteStops")
-                        .HasForeignKey("BusStopId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Entities.Models.Route", "Routes")
-                        .WithMany("RouteStops")
-                        .HasForeignKey("RouteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("BusStops");
-
-                    b.Navigation("Routes");
-                });
-
-            modelBuilder.Entity("Entities.Models.TrackingHistory", b =>
-                {
-                    b.HasOne("Entities.Models.Bus", "Buses")
-                        .WithMany("TrackingHistories")
+                    b.HasOne("Entities.Models.Bus", "Bus")
+                        .WithMany()
                         .HasForeignKey("BusId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Buses");
-                });
+                    b.HasOne("Entities.Models.BusRoute", "Route")
+                        .WithMany()
+                        .HasForeignKey("RouteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-            modelBuilder.Entity("Entities.Models.Bus", b =>
-                {
-                    b.Navigation("Routes");
+                    b.Navigation("Bus");
 
-                    b.Navigation("TrackingHistories");
+                    b.Navigation("Route");
                 });
 
             modelBuilder.Entity("Entities.Models.BusStop", b =>
                 {
-                    b.Navigation("RouteStops");
+                    b.HasOne("Entities.Models.BusRoute", null)
+                        .WithMany("Stops")
+                        .HasForeignKey("BusRouteId");
                 });
 
-            modelBuilder.Entity("Entities.Models.Route", b =>
+            modelBuilder.Entity("Entities.Models.Bus", b =>
                 {
-                    b.Navigation("RouteStops");
+                    b.Navigation("Location");
+
+                    b.Navigation("Routes");
+                });
+
+            modelBuilder.Entity("Entities.Models.BusRoute", b =>
+                {
+                    b.Navigation("Stops");
                 });
 #pragma warning restore 612, 618
         }

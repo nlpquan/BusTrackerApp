@@ -19,5 +19,6 @@ namespace BusTrackerBackend.ContextFactory
 
             return new RepositoryContext(builder.Options);
         }
+
     }
 }

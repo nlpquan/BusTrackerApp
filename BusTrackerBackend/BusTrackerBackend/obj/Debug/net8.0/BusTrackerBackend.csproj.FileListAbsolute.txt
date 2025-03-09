@@ -178,3 +178,7 @@ C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrack
 C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\bin\Debug\net8.0\Repository.dll
 C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\bin\Debug\net8.0\Repository.pdb
 C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\bin\Debug\net8.0\Entities.pdb
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\bin\Debug\net8.0\Service.Contracts.dll
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\bin\Debug\net8.0\Service.dll
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\bin\Debug\net8.0\Service.pdb
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\BusTrackerBackend\bin\Debug\net8.0\Service.Contracts.pdb

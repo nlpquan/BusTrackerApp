@@ -16,8 +16,8 @@ namespace Entities.Models
         [Required(ErrorMessage = "Name is a required field.")]
         [MaxLength(60, ErrorMessage = "Maximum length for the Name is 60 characters.")]
         public string? Name { get; set; }
+
         public double Latitude { get; set; }
-        public double Longtitude { get; set; }
-        public ICollection<RouteStop>? RouteStops { get; set; }
+        public double Longitude { get; set; }
     }
 }
