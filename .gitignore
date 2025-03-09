@@ -1,5 +1,6 @@
 # Ignore build and debug files
 .vs/
+.vscode/
 **/obj/
 **/bin/
 BusTrackerBackend/.vs/BusTrackerBackend/DesignTimeBuild/.dtbcache.v2
