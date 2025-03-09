@@ -1,2 +1,7 @@
+# Ignore build and debug files
 .vs/
-
+**/obj/
+**/bin/
+BusTrackerBackend/.vs/BusTrackerBackend/DesignTimeBuild/.dtbcache.v2
+BusTrackerBackend/.vs/BusTrackerBackend/v17/.futdcache.v2
+BusTrackerBackend/.vs/BusTrackerBackend/v17/.suo
