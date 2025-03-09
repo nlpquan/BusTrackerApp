@@ -1,2 +1,5 @@
+# Ignore build and debug files
 .vs/
+**/obj/
+**/bin/
 
