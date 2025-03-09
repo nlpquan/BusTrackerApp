@@ -7,120 +7,16 @@
       "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|solutionrelative:service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service.contracts\\ibusstopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\ibusstopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service.contracts\\ibusscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\ibusscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service.contracts\\ibusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\ibusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|solutionrelative:service\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service\\busstopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|solutionrelative:service\\busstopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service\\busrouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|solutionrelative:service\\busrouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service\\busscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|solutionrelative:service\\busscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service.contracts\\ibusrouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\ibusrouteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F898552-52FB-460F-88F2-550509B5C693}|Entities\\Entities.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\entities\\models\\busroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F898552-52FB-460F-88F2-550509B5C693}|Entities\\Entities.csproj|solutionrelative:entities\\models\\busroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\busstoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\busstoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\busrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\busrouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\busschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\busschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\busrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\busrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\configuration\\busconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\busconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F898552-52FB-460F-88F2-550509B5C693}|Entities\\Entities.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\entities\\models\\busstop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F898552-52FB-460F-88F2-550509B5C693}|Entities\\Entities.csproj|solutionrelative:entities\\models\\busstop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F898552-52FB-460F-88F2-550509B5C693}|Entities\\Entities.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\entities\\models\\busschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F898552-52FB-460F-88F2-550509B5C693}|Entities\\Entities.csproj|solutionrelative:entities\\models\\busschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\configuration\\busscheduleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\busscheduleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\configuration\\buslocationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\buslocationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\configuration\\busstopconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\busstopconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\configuration\\busrouteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\busrouteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -142,56 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BusStopService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusStopService.cs",
-              "RelativeDocumentMoniker": "Service\\BusStopService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusStopService.cs",
-              "RelativeToolTip": "Service\\BusStopService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:18:47.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceManager.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\ServiceManager.cs",
-              "RelativeDocumentMoniker": "Service\\ServiceManager.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\ServiceManager.cs",
-              "RelativeToolTip": "Service\\ServiceManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:19:10.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IBusService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusService.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IBusService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusService.cs",
-              "RelativeToolTip": "Service.Contracts\\IBusService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:12:33.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBusScheduleService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusScheduleService.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IBusScheduleService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusScheduleService.cs",
-              "RelativeToolTip": "Service.Contracts\\IBusScheduleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:14:44.382Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -200,86 +48,14 @@
               "RelativeDocumentMoniker": "BusTrackerBackend\\Program.cs",
               "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Program.cs",
               "RelativeToolTip": "BusTrackerBackend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T02:45:40.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BusService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusService.cs",
-              "RelativeDocumentMoniker": "Service\\BusService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusService.cs",
-              "RelativeToolTip": "Service\\BusService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:16:52.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IBusStopService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusStopService.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IBusStopService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusStopService.cs",
-              "RelativeToolTip": "Service.Contracts\\IBusStopService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:14:53.253Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IServiceManager.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IServiceManager.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IServiceManager.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IServiceManager.cs",
-              "RelativeToolTip": "Service.Contracts\\IServiceManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:15:02.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BusRouteService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusRouteService.cs",
-              "RelativeDocumentMoniker": "Service\\BusRouteService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusRouteService.cs",
-              "RelativeToolTip": "Service\\BusRouteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:18:32.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BusScheduleService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusScheduleService.cs",
-              "RelativeDocumentMoniker": "Service\\BusScheduleService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusScheduleService.cs",
-              "RelativeToolTip": "Service\\BusScheduleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:18:40.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IBusRouteService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusRouteService.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IBusRouteService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusRouteService.cs",
-              "RelativeToolTip": "Service.Contracts\\IBusRouteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:14:35.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Extensions\\ServiceExtensions.cs",
@@ -291,115 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BusRoute.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\BusRoute.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\BusRoute.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\BusRoute.cs",
-              "RelativeToolTip": "Entities\\Models\\BusRoute.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:40:50.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BusRouteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusRouteRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\BusRouteRepository.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusRouteRepository.cs",
-              "RelativeToolTip": "Repository\\BusRouteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:50:54.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BusStopRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusStopRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\BusStopRepository.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusStopRepository.cs",
-              "RelativeToolTip": "Repository\\BusStopRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:51:45.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryBase.cs",
-              "RelativeToolTip": "Repository\\RepositoryBase.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:42:55.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BusScheduleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusScheduleRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\BusScheduleRepository.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusScheduleRepository.cs",
-              "RelativeToolTip": "Repository\\BusScheduleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:51:07.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RepositoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryManager.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryManager.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryManager.cs",
-              "RelativeToolTip": "Repository\\RepositoryManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:57:07.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BusRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\BusRepository.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusRepository.cs",
-              "RelativeToolTip": "Repository\\BusRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:50:14.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Repository.csproj",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Repository.csproj",
-              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Repository.csproj",
-              "RelativeToolTip": "Repository\\Repository.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T01:45:52.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BusConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusConfiguration.cs",
-              "RelativeDocumentMoniker": "Repository\\Configuration\\BusConfiguration.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusConfiguration.cs",
-              "RelativeToolTip": "Repository\\Configuration\\BusConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T01:46:20.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 2,
               "Title": "20250308223448_DatabaseCreationAndInitialSeed.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250308223448_DatabaseCreationAndInitialSeed.cs",
@@ -411,43 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryContext.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryContext.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryContext.cs",
-              "RelativeToolTip": "Repository\\RepositoryContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T01:07:54.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BusStop.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\BusStop.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\BusStop.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\BusStop.cs",
-              "RelativeToolTip": "Entities\\Models\\BusStop.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:41:01.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "BusSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\BusSchedule.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\BusSchedule.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\BusSchedule.cs",
-              "RelativeToolTip": "Entities\\Models\\BusSchedule.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:40:55.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 3,
               "Title": "20250308223635_DatabaseCreation.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250308223635_DatabaseCreation.cs",
@@ -459,55 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BusScheduleConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusScheduleConfiguration.cs",
-              "RelativeDocumentMoniker": "Repository\\Configuration\\BusScheduleConfiguration.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusScheduleConfiguration.cs",
-              "RelativeToolTip": "Repository\\Configuration\\BusScheduleConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T01:54:38.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BusLocationConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusLocationConfiguration.cs",
-              "RelativeDocumentMoniker": "Repository\\Configuration\\BusLocationConfiguration.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusLocationConfiguration.cs",
-              "RelativeToolTip": "Repository\\Configuration\\BusLocationConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T01:54:26.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BusStopConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusStopConfiguration.cs",
-              "RelativeDocumentMoniker": "Repository\\Configuration\\BusStopConfiguration.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusStopConfiguration.cs",
-              "RelativeToolTip": "Repository\\Configuration\\BusStopConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T01:54:32.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BusRouteConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusRouteConfiguration.cs",
-              "RelativeDocumentMoniker": "Repository\\Configuration\\BusRouteConfiguration.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\BusRouteConfiguration.cs",
-              "RelativeToolTip": "Repository\\Configuration\\BusRouteConfiguration.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T01:54:18.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 5,
               "Title": "BusTrackerBackend.csproj",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\BusTrackerBackend.csproj",
               "RelativeDocumentMoniker": "BusTrackerBackend\\BusTrackerBackend.csproj",
@@ -519,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\appsettings.Development.json",
               "RelativeDocumentMoniker": "BusTrackerBackend\\appsettings.Development.json",
@@ -531,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Properties\\launchSettings.json",
