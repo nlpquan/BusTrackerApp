@@ -1,0 +1,18 @@
+.search-form {
+    position: absolute; /* Fixed on top of the map */
+    top: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10; /* Ensure it's above the map */
+  }
+  
+  .search-form input {
+    padding: 5px;
+  }
+  
+  .search-form button {
+    padding: 5px 10px;
+  }
+  

@@ -3,6 +3,7 @@ import { BusRouteService } from '../../services/bus-route.service';  // Correct 
 
 @Component({
   selector: 'app-bus-route-search',
+  standalone: true,
   templateUrl: './bus-route-search.component.html',
   styleUrls: ['./bus-route-search.component.css']
 })
