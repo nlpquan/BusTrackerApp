@@ -1,0 +1,317 @@
+.navbar {
+  background-color: #fff;
+  height: 80px;
+  margin: 20px;
+  border-radius: 16px;
+  padding: 0.5rem;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  color: #009970;
+  font-size: 24px;
+  transition: 0.3s color;
+}
+
+.login-button {
+  background-color: #009970;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s background-color
+}
+
+.login-button:hover {
+  background-color: #00b383;
+}
+
+.navbar-togger {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-togger:focus, .btn-close:focus {
+  box-shadow: none;
+  outline: none
+}
+
+.nav-link {
+  color: #666777;
+  font-weight: 500;
+  position: relative
+}
+
+.nav-link:hover, .nav-link:active {
+  color: #000
+}
+
+@media (min-width: 991px)
+{
+  .nav-link:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 2px;
+      background-color: #009970;
+      visibility: hidden;
+      transition: 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover::before {
+      width: 100%;
+      visibility: visible;
+  }
+}
+
+.hero-section {
+  background: url(../public/bus-background.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+}
+
+.hero-section::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 120vh;
+  z-index: 0
+}
+
+.hero-section .container {
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+}
+
+.hero-section h1 {
+  font-size: 1.5em;
+}
+
+.hero-section h1 {
+  font-size: 1.2em;
+}
+
+/* Apply this CSS to minimize the font size of labels in the buses page */
+.login-hero .form-label {
+  font-size: 0.85rem; /* Smaller font size */
+}
+
+.login-hero .form-text {
+  font-size: 0.75rem; /* Even smaller font size for helper text */
+}
+
+.login-hero .form-check-label {
+  font-size: 0.85rem; /* Smaller font size for the checkbox label */
+}
+
+/* Apply this CSS to minimize the font size of labels in the buses page */
+.register-hero .form-label {
+  font-size: 0.85rem; /* Smaller font size */
+}
+
+.register-hero .form-text {
+  font-size: 0.75rem; /* Even smaller font size for helper text */
+}
+
+/* Custom CSS to adjust the form's size */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px; /* Larger width */
+  padding: 20px; /* More padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  height: 45px; /* Larger input fields */
+}
+
+.btn-primary {
+  width: 100%; /* Full width button */
+}
+
+/* Custom button style */
+.btn-primary {
+  background-color: #009970; /* Change to your desired color */
+  border-color: #009970; /* Border color */
+}
+
+.btn-primary:hover {
+  background-color: #00b383; /* Change to a darker shade on hover */
+  border-color: #00b383; /* Darker border on hover */
+}
+
+.btn-primary:active {
+  background-color: #00b383 !important; /* Even darker shade for active state */
+  border-color: #00b383 !important; /* Darker border on active state */
+}
+
+p {
+  font-size: 12px;
+}
+
+/* Make the checkbox smaller */
+.form-check-input {
+  width: 30px; /* Reduce the width of the checkbox */
+  height: 30px; /* Reduce the height of the checkbox */
+  margin-top: 1.4rem; /* Adjust the vertical alignment */
+}
+
+/* Optional: Adjust the label next to the checkbox */
+.form-check-label {
+  font-size: 0.9rem; /* Reduce the label font size */
+}
+
+/* Fade In Animation */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade Out Animation */
+.fade-out {
+  animation: fadeOut 1s ease-in-out;
+}
+
+/* Keyframes for Fade In */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyframes for Fade Out */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.bus-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  overflow-y: auto;  /* Enable vertical scrolling */
+  max-height: 80vh;  /* Limit the container height to 80% of the viewport */
+}
+
+.bus-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  width: calc(33.33% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 250px;
+  justify-content: space-between;
+}
+
+.bus-card:hover {
+  transform: scale(1.05);
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-header .status {
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.card-header .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.card-header .inactive {
+  background-color: #f44336;
+  color: white;
+}
+
+.card-body p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333; /* Ensure text color is dark and readable */
+}
+
+.card-body ul {
+  padding-left: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+.card-body li {
+  margin: 5px 0;
+  color: #333; /* Ensure list items have visible text */
+}
+
+.card-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}
+
+
+
+

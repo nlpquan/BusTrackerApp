@@ -10,3 +10,7 @@ C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\Contract
 C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\Contracts\obj\Debug\net8.0\refint\Contracts.dll
 C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\Contracts\obj\Debug\net8.0\Contracts.pdb
 C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\Contracts\obj\Debug\net8.0\ref\Contracts.dll
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\Contracts\bin\Debug\net8.0\Entities.dll
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\Contracts\bin\Debug\net8.0\Entities.pdb
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
+C:\Users\AMD\Documents\NZ\Yoobee\MSE806\BusTrackerApp\BusTrackerBackend\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date

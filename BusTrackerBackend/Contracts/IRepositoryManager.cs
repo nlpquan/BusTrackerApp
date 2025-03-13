@@ -9,10 +9,8 @@ namespace Contracts
     public interface IRepositoryManager
     {
         IBusRepository Bus { get; }
-        IBusLocationRepository BusLocation { get; }
-        IBusRouteRepository BusRoute { get; }
-        IBusScheduleRepository BusSchedule { get; }
-        IBusStopRepository BusStop { get; }
+        ICustomerBookingRepository CustomerBooking { get; }
+        IDriverTicketRepository DriverTicket { get; }
         void Save();
     }
 

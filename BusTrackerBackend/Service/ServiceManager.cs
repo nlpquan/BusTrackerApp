@@ -1,4 +1,8 @@
-﻿using Contracts;
+﻿using AutoMapper;
+using Contracts;
+using Entities.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Service.Contracts;
 using System;
 using System.Collections.Generic;
@@ -11,33 +15,29 @@ namespace Service
     public sealed class ServiceManager : IServiceManager
     {
         private readonly Lazy<IBusService> _busService;
-        private readonly Lazy<IBusLocationService> _busLocationService;
-        private readonly Lazy<IBusRouteService> _busRouteService;
-        private readonly Lazy<IBusScheduleService> _busScheduleService;
-        private readonly Lazy<IBusStopService> _busStopService;
+        private readonly Lazy<ICustomerBookingService> _customerBookingService;
+        private readonly Lazy<IDriverTicketService> _driverTicketService;
+        private readonly Lazy<IAuthenticationService> _authenticationService;
+
         public ServiceManager(IRepositoryManager repositoryManager, ILoggerManager
-        logger)
+        logger, IMapper mapper, UserManager<User> userManager, IConfiguration configuration)
         {
             _busService = new Lazy<IBusService>(() => new
-            BusService(repositoryManager, logger));
+            BusService(repositoryManager, logger, mapper));
 
-            _busLocationService = new Lazy<IBusLocationService>(() => new
-            BusLocationService(repositoryManager, logger));
+            _customerBookingService = new Lazy<ICustomerBookingService>(() => new
+            CustomerBookingService(repositoryManager, logger, mapper));
 
-            _busRouteService = new Lazy<IBusRouteService>(() => new
-            BusRouteService(repositoryManager, logger));
+            _driverTicketService = new Lazy<IDriverTicketService>(() => new
+            DriverTicketService(repositoryManager, logger, mapper));
 
-            _busScheduleService = new Lazy<IBusScheduleService>(() => new
-            BusScheduleService(repositoryManager, logger));
-
-            _busStopService = new Lazy<IBusStopService>(() => new
-            BusStopService(repositoryManager, logger));
+            _authenticationService = new Lazy<IAuthenticationService>(() => new 
+            AuthenticationService(logger, mapper, userManager, configuration));
         }
         public IBusService BusService => _busService.Value;
-        public IBusLocationService BusLocationService => _busLocationService.Value;
-        public IBusRouteService BusRouteService => _busRouteService.Value;
-        public IBusScheduleService BusScheduleService => _busScheduleService.Value;
-        public IBusStopService BusStopService => _busStopService.Value;
+        public ICustomerBookingService CustomerBookingService => _customerBookingService.Value;
+        public IDriverTicketService DriverTicketService => _driverTicketService.Value;
+        public IAuthenticationService AuthenticationService => _authenticationService.Value;
     }
 
 }

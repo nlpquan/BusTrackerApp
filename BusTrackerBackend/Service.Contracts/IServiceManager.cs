@@ -9,9 +9,8 @@ namespace Service.Contracts
     public interface IServiceManager
     {
         IBusService BusService { get; }
-        IBusLocationService BusLocationService { get; }
-        IBusRouteService BusRouteService { get; }
-        IBusScheduleService BusScheduleService { get; }
-        IBusStopService BusStopService { get; }
+        ICustomerBookingService CustomerBookingService { get; }
+        IDriverTicketService DriverTicketService { get; }
+        IAuthenticationService AuthenticationService { get; }
     }
 }

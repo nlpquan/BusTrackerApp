@@ -31,7 +31,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -114,6 +118,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

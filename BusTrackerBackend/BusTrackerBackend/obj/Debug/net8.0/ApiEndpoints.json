@@ -1,22 +1,258 @@
 [
   {
-    "ContainingType": "BusTrackerBackend.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.AuthenticationController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userForRegistration",
+        "Type": "Shared.DataTransferObjects.UserForRegistrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.BusesController",
+    "Method": "GetCompanies",
+    "RelativePath": "api/Buses",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.BusesController",
+    "Method": "CreateBus",
+    "RelativePath": "api/Buses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "bus",
+        "Type": "Shared.DataTransferObjects.BusForCreationDto",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.BusesController",
+    "Method": "GetBus",
+    "RelativePath": "api/Buses/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "BusById"
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.BusesController",
+    "Method": "DeleteBus",
+    "RelativePath": "api/Buses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.BusesController",
+    "Method": "UpdateBus",
+    "RelativePath": "api/Buses/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "bus",
+        "Type": "Shared.DataTransferObjects.BusForUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsController",
+    "Method": "GetCustomerBookings",
+    "RelativePath": "api/CustomerBookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsController",
+    "Method": "CreateCustomerBooking",
+    "RelativePath": "api/CustomerBookings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerBooking",
+        "Type": "Shared.DataTransferObjects.CustomerBookingForCreationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsController",
+    "Method": "GetCustomerBooking",
+    "RelativePath": "api/CustomerBookings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CustomerBookingById"
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsController",
+    "Method": "DeleteCustomerBooking",
+    "RelativePath": "api/CustomerBookings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsController",
+    "Method": "UpdateCustomerBooking",
+    "RelativePath": "api/CustomerBookings/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "customerBooking",
+        "Type": "Shared.DataTransferObjects.CustomerBookingForUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.DriverTicketsController",
+    "Method": "GetDriverTickets",
+    "RelativePath": "api/DriverTickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.DriverTicketsController",
+    "Method": "CreateDriverTicket",
+    "RelativePath": "api/DriverTickets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "driverTicket",
+        "Type": "Shared.DataTransferObjects.DriverTicketForCreationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.DriverTicketsController",
+    "Method": "GetDriverTicket",
+    "RelativePath": "api/DriverTickets/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DriverTicketById"
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.DriverTicketsController",
+    "Method": "DeleteDriverTicket",
+    "RelativePath": "api/DriverTickets/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.DriverTicketsController",
+    "Method": "UpdateDriverTicket",
+    "RelativePath": "api/DriverTickets/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "driverTicket",
+        "Type": "Shared.DataTransferObjects.DriverTicketForUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
