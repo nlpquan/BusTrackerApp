@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend.presentation\\controllers\\driverticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|solutionrelative:bustrackerbackend.presentation\\controllers\\driverticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend.presentation\\controllers\\busescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|solutionrelative:bustrackerbackend.presentation\\controllers\\busescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend.presentation\\controllers\\customerbookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|solutionrelative:bustrackerbackend.presentation\\controllers\\customerbookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|solutionrelative:bustrackerbackend.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|solutionrelative:service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service.contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CEAE10-D2F9-4B1E-9E23-FE0BAAB6CD1D}|Shared\\Shared.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\shared\\datatransferobjects\\userforauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CEAE10-D2F9-4B1E-9E23-FE0BAAB6CD1D}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\userforauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend.presentation\\controllers\\driverticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|solutionrelative:bustrackerbackend.presentation\\controllers\\driverticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service\\driverticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{3C2EABE2-7039-4365-83A0-5141F5737B17}|Contracts\\Contracts.csproj|solutionrelative:contracts\\ibusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F898552-52FB-460F-88F2-550509B5C693}|Entities\\Entities.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\entities\\models\\driverticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F898552-52FB-460F-88F2-550509B5C693}|Entities\\Entities.csproj|solutionrelative:entities\\models\\driverticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -163,14 +183,6 @@
       "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80F9306C-8ADA-46C4-B7D7-1B1618495B80}|BusTrackerBackend.Presentation\\BusTrackerBackend.Presentation.csproj|solutionrelative:bustrackerbackend.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\bustrackerbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D35D0267-78A0-419A-8356-5D4BE542F95A}|BusTrackerBackend\\BusTrackerBackend.csproj|solutionrelative:bustrackerbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\repository\\configuration\\customerbookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35F6BC21-E68D-4381-98AD-E48280026EF4}|Repository\\Repository.csproj|solutionrelative:repository\\configuration\\customerbookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -197,14 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{951DAC6D-1BEC-48A9-954E-D5A43B631128}|Service\\Service.csproj|solutionrelative:service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\service.contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B0C6F6C-6305-4AEA-AAFB-BB887A179F61}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2CEAE10-D2F9-4B1E-9E23-FE0BAAB6CD1D}|Shared\\Shared.csproj|c:\\users\\amd\\documents\\nz\\yoobee\\mse806\\bustrackerapp\\bustrackerbackend\\shared\\datatransferobjects\\userforregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -234,11 +238,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\User.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\User.cs",
@@ -252,46 +256,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "BusTrackerBackend.Presentation\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "BusTrackerBackend.Presentation\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:22:26.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "BusesController.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\BusesController.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend.Presentation\\Controllers\\BusesController.cs",
               "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\BusesController.cs*",
               "RelativeToolTip": "BusTrackerBackend.Presentation\\Controllers\\BusesController.cs*",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAADoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T06:59:34.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CustomerBookingsController.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\CustomerBookingsController.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend.Presentation\\Controllers\\CustomerBookingsController.cs",
               "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\CustomerBookingsController.cs*",
               "RelativeToolTip": "BusTrackerBackend.Presentation\\Controllers\\CustomerBookingsController.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T00:21:27.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\AuthenticationService.cs",
+              "RelativeToolTip": "Service\\AuthenticationService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:25:20.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "BusTrackerBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\appsettings.json",
+              "RelativeToolTip": "BusTrackerBackend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T03:19:23.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IAuthenticationService.cs",
+              "RelativeToolTip": "Service.Contracts\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:24:50.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserForAuthenticationDto.cs",
+              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\UserForAuthenticationDto.cs",
+              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\UserForAuthenticationDto.cs",
+              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\UserForAuthenticationDto.cs",
+              "RelativeToolTip": "Shared\\DataTransferObjects\\UserForAuthenticationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T07:07:29.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DriverTicketsController.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\DriverTicketsController.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend.Presentation\\Controllers\\DriverTicketsController.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\DriverTicketsController.cs*",
-              "RelativeToolTip": "BusTrackerBackend.Presentation\\Controllers\\DriverTicketsController.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADUAAABeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\DriverTicketsController.cs",
+              "RelativeToolTip": "BusTrackerBackend.Presentation\\Controllers\\DriverTicketsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA4wBQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T00:21:55.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Program.cs",
+              "RelativeDocumentMoniker": "BusTrackerBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Program.cs",
+              "RelativeToolTip": "BusTrackerBackend\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:24:38.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DriverTicketService.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\DriverTicketService.cs",
               "RelativeDocumentMoniker": "Service\\DriverTicketService.cs",
@@ -304,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "BusService.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\BusService.cs",
               "RelativeDocumentMoniker": "Service\\BusService.cs",
@@ -317,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "CustomerBookingService.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\CustomerBookingService.cs",
               "RelativeDocumentMoniker": "Service\\CustomerBookingService.cs",
@@ -330,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "IDriverTicketService.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IDriverTicketService.cs",
               "RelativeDocumentMoniker": "Service.Contracts\\IDriverTicketService.cs",
@@ -343,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "IBusService.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IBusService.cs",
               "RelativeDocumentMoniker": "Service.Contracts\\IBusService.cs",
@@ -356,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ICustomerBookingService.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\ICustomerBookingService.cs",
               "RelativeDocumentMoniker": "Service.Contracts\\ICustomerBookingService.cs",
@@ -369,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\MappingProfile.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\MappingProfile.cs",
@@ -382,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "DriverTicketForUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\DriverTicketForUpdateDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\DriverTicketForUpdateDto.cs",
@@ -395,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "DriverTicketDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\DriverTicketDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\DriverTicketDto.cs",
@@ -408,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "DriverTicketForCreationDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\DriverTicketForCreationDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\DriverTicketForCreationDto.cs",
@@ -421,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "CustomerBookingForUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\CustomerBookingForUpdateDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CustomerBookingForUpdateDto.cs",
@@ -434,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "CustomerBookingForCreationDto.cs.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\CustomerBookingForCreationDto.cs.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CustomerBookingForCreationDto.cs.cs",
@@ -447,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "BusForUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\BusForUpdateDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\BusForUpdateDto.cs",
@@ -460,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "BusForCreationDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\BusForCreationDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\BusForCreationDto.cs",
@@ -473,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "DriverTicketNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Exceptions\\DriverTicketNotFoundException.cs",
               "RelativeDocumentMoniker": "Entities\\Exceptions\\DriverTicketNotFoundException.cs",
@@ -486,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "BusNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Exceptions\\BusNotFoundException.cs",
               "RelativeDocumentMoniker": "Entities\\Exceptions\\BusNotFoundException.cs",
@@ -499,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "CustomerBookingNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Exceptions\\CustomerBookingNotFoundException.cs",
               "RelativeDocumentMoniker": "Entities\\Exceptions\\CustomerBookingNotFoundException.cs",
@@ -512,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "Entities\\Exceptions\\NotFoundException.cs",
@@ -525,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "DriverTicketRepository.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\DriverTicketRepository.cs",
               "RelativeDocumentMoniker": "Repository\\DriverTicketRepository.cs",
@@ -538,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "BusRepository.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\BusRepository.cs",
               "RelativeDocumentMoniker": "Repository\\BusRepository.cs",
@@ -551,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "CustomerBookingRepository.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\CustomerBookingRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CustomerBookingRepository.cs",
@@ -564,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "IDriverTicketRepository.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Contracts\\IDriverTicketRepository.cs",
               "RelativeDocumentMoniker": "Contracts\\IDriverTicketRepository.cs",
@@ -577,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "ICustomerBookingRepository.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Contracts\\ICustomerBookingRepository.cs",
               "RelativeDocumentMoniker": "Contracts\\ICustomerBookingRepository.cs",
@@ -590,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "IBusRepository.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Contracts\\IBusRepository.cs",
               "RelativeDocumentMoniker": "Contracts\\IBusRepository.cs",
@@ -603,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "DriverTicket.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\DriverTicket.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\DriverTicket.cs",
@@ -616,20 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Program.cs",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Program.cs",
-              "RelativeToolTip": "BusTrackerBackend\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:24:38.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "20250313060851_MakeCustomerIdNullable.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250313060851_MakeCustomerIdNullable.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250313060851_MakeCustomerIdNullable.cs",
@@ -642,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Extensions\\ServiceExtensions.cs",
@@ -655,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "BusDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\BusDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\BusDto.cs",
@@ -668,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "CsvOutputFormatter.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\CsvOutputFormatter.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\CsvOutputFormatter.cs",
@@ -681,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "CustomerBooking.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\CustomerBooking.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\CustomerBooking.cs",
@@ -694,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "RepositoryManager.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryManager.cs",
               "RelativeDocumentMoniker": "Repository\\RepositoryManager.cs",
@@ -707,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "CustomerBookingDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\CustomerBookingDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CustomerBookingDto.cs",
@@ -720,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "20250313053102_AllowNullModel.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250313053102_AllowNullModel.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250313053102_AllowNullModel.cs",
@@ -733,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "Bus.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Entities\\Models\\Bus.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\Bus.cs",
@@ -746,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "Repository\\RepositoryBase.cs",
@@ -759,33 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "BusTrackerBackend.Presentation\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend.Presentation\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "BusTrackerBackend.Presentation\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:22:26.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\appsettings.json",
-              "RelativeDocumentMoniker": "BusTrackerBackend\\appsettings.json",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\appsettings.json",
-              "RelativeToolTip": "BusTrackerBackend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-13T03:19:23.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "20250313005709_InitialData.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250313005709_InitialData.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250313005709_InitialData.cs",
@@ -798,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "CustomerBookingConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\CustomerBookingConfiguration.cs",
               "RelativeDocumentMoniker": "Repository\\Configuration\\CustomerBookingConfiguration.cs",
@@ -811,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "DriverTicketConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\DriverTicketConfiguration.cs",
               "RelativeDocumentMoniker": "Repository\\Configuration\\DriverTicketConfiguration.cs",
@@ -824,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "RoleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\Configuration\\RoleConfiguration.cs",
               "RelativeDocumentMoniker": "Repository\\Configuration\\RoleConfiguration.cs",
@@ -837,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "RepositoryContext.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Repository\\RepositoryContext.cs",
               "RelativeDocumentMoniker": "Repository\\RepositoryContext.cs",
@@ -850,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "ExceptionMiddlewareExtensions.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Extensions\\ExceptionMiddlewareExtensions.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Extensions\\ExceptionMiddlewareExtensions.cs",
@@ -863,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "UserForRegistrationDto.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Shared\\DataTransferObjects\\UserForRegistrationDto.cs",
               "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\UserForRegistrationDto.cs",
@@ -876,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "ServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\ServiceManager.cs",
               "RelativeDocumentMoniker": "Service\\ServiceManager.cs",
@@ -889,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "IServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IServiceManager.cs",
               "RelativeDocumentMoniker": "Service.Contracts\\IServiceManager.cs",
@@ -902,33 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service.Contracts\\IAuthenticationService.cs",
-              "RelativeToolTip": "Service.Contracts\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:24:50.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "Service\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Service\\AuthenticationService.cs",
-              "RelativeToolTip": "Service\\AuthenticationService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCIAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T00:25:20.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "20250313001946_AddedRolesToDb.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250313001946_AddedRolesToDb.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250313001946_AddedRolesToDb.cs",
@@ -941,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "20250313001051_AddedRolesToDb.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\BusTrackerBackend\\Migrations\\20250313001051_AddedRolesToDb.cs",
               "RelativeDocumentMoniker": "BusTrackerBackend\\Migrations\\20250313001051_AddedRolesToDb.cs",
@@ -952,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "IRepositoryManager.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Documents\\NZ\\Yoobee\\MSE806\\BusTrackerApp\\BusTrackerBackend\\Contracts\\IRepositoryManager.cs",
               "RelativeDocumentMoniker": "Contracts\\IRepositoryManager.cs",

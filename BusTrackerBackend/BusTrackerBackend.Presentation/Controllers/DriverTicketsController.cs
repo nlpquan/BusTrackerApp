@@ -18,7 +18,7 @@ namespace BusTrackerBackend.Presentation.Controllers
 
         public DriverTicketsController(IServiceManager service) => _service = service;
 
-        [HttpGet]
+        [HttpGet(Name = "GetDriverTickets")]
         public IActionResult GetDriverTickets()
         {
             var driverTickets = _service.DriverTicketService.GetAllDriverTickets(trackChanges: false);

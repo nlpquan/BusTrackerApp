@@ -1,4 +1,5 @@
 ﻿using Entities.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
@@ -17,7 +18,7 @@ namespace BusTrackerBackend.Presentation.Controllers
         private readonly IServiceManager _service;
         public CustomerBookingsController(IServiceManager service) => _service = service;
 
-        [HttpGet]
+        [HttpGet(Name = "GetCustomerBookings")]
         public IActionResult GetCustomerBookings()
         {
             var customerBookings = _service.CustomerBookingService.GetAllCustomerBookings(trackChanges: false);

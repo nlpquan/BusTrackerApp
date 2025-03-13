@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.AuthenticationController",
+    "Method": "Authenticate",
+    "RelativePath": "api/authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Shared.DataTransferObjects.UserForAuthenticationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.BusesController",
     "Method": "GetCompanies",
     "RelativePath": "api/Buses",
@@ -23,7 +39,8 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "GetBuses"
   },
   {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.BusesController",
@@ -103,7 +120,8 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "GetCustomerBookings"
   },
   {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsController",
@@ -183,7 +201,8 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "GetDriverTickets"
   },
   {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.DriverTicketsController",
