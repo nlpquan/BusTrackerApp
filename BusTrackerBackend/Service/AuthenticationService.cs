@@ -35,17 +35,40 @@ namespace Service
             _configuration = configuration;
         }
 
+        //public async Task<IdentityResult> RegisterUser(UserForRegistrationDto userForRegistration)
+        //{
+        //    var user = _mapper.Map<User>(userForRegistration);
+
+        //    var result = await _userManager.CreateAsync(user,
+        //    userForRegistration.Password);
+
+        //    if (result.Succeeded)
+        //        await _userManager.AddToRolesAsync(user, userForRegistration.Roles);
+        //    return result;
+        //}
+
         public async Task<IdentityResult> RegisterUser(UserForRegistrationDto userForRegistration)
         {
+            // Map the DTO to the User entity
             var user = _mapper.Map<User>(userForRegistration);
 
-            var result = await _userManager.CreateAsync(user,
-            userForRegistration.Password);
+            // Create the user
+            var result = await _userManager.CreateAsync(user, userForRegistration.Password);
 
             if (result.Succeeded)
-                await _userManager.AddToRolesAsync(user, userForRegistration.Roles);
+            {
+                // Assign roles to the user
+                var roleResult = await _userManager.AddToRolesAsync(user, userForRegistration.Roles);
+
+                if (!roleResult.Succeeded)
+                {
+                    return IdentityResult.Failed(roleResult.Errors.ToArray()); // Return errors if role assignment fails
+                }
+            }
+
             return result;
         }
+
 
         public async Task<bool> ValidateUser(UserForAuthenticationDto userForAuth)
         {
@@ -62,10 +85,16 @@ namespace Service
         {
             var signingCredentials = GetSigningCredentials();
             var claims = await GetClaims();
+
+            // Add FirstName claim if not already included
+            claims.Add(new Claim("FirstName", _user.FirstName));  // Add FirstName here
+
             var tokenOptions = GenerateTokenOptions(signingCredentials, claims);
 
             return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
         }
+
+
 
         private SigningCredentials GetSigningCredentials()
         {
@@ -77,10 +106,12 @@ namespace Service
 
         private async Task<List<Claim>> GetClaims()
         {
-            var claims = new List<Claim>
+            var claims = new List<Claim> 
             {
-                new Claim(ClaimTypes.Name, _user.UserName)
+                new Claim(ClaimTypes.Name, _user.UserName),
+                new Claim("FirstName", _user.FirstName)  
             };
+
 
             var roles = await _userManager.GetRolesAsync(_user);
             foreach (var role in roles)
@@ -105,6 +136,40 @@ namespace Service
             );
 
             return tokenOptions;
+        }
+
+        public async Task<List<Claim>> GetUserRoleClaims(UserForAuthenticationDto userForAuth)
+        {
+            var result = await ValidateUser(userForAuth);
+
+            if (!result)
+                throw new UnauthorizedAccessException("Invalid credentials");
+
+            return await GetClaims();
+        }
+
+        public async Task<UserDetailsDto> GetUserDetailsAsync(string username)
+        {
+            // Retrieve the user from the database
+            var user = await _userManager.FindByNameAsync(username);
+
+            if (user == null)
+            {
+                throw new UnauthorizedAccessException("User not found");
+            }
+
+            // Map the user details to the UserDetailsDto
+            var userDetails = new UserDetailsDto
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                UserName = user.UserName,
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber,
+                Roles = await _userManager.GetRolesAsync(user) // Get roles associated with the user
+            };
+
+            return userDetails; // Return the UserDetailsDto
         }
 
 

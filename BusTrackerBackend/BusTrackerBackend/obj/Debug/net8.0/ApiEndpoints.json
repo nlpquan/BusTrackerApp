@@ -32,6 +32,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.AuthenticationController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/authentication/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.BusesController",
     "Method": "GetCompanies",
     "RelativePath": "api/Buses",
@@ -120,8 +130,7 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [],
-    "EndpointName": "GetCustomerBookings"
+    "ReturnTypes": []
   },
   {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsController",
@@ -269,6 +278,91 @@
       {
         "Name": "driverTicket",
         "Type": "Shared.DataTransferObjects.DriverTicketForUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsForCustomerController",
+    "Method": "GetCustomerBookingsForCustomer",
+    "RelativePath": "api/users/{customerId}/customerbookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsForCustomerController",
+    "Method": "GetCustomerBookingForCustomer",
+    "RelativePath": "api/users/{customerId}/customerbookings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetCustomerBookingByIdForCustomer"
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsForCustomerController",
+    "Method": "DeleteCustomerBookingForCustomer",
+    "RelativePath": "api/users/{customerId}/customerbookings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsForCustomerController",
+    "Method": "UpdateCustomerBookingForCustomer",
+    "RelativePath": "api/users/{customerId}/customerbookings/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "customerBooking",
+        "Type": "Shared.DataTransferObjects.CustomerBookingForUpdateDto",
         "IsRequired": true
       }
     ],

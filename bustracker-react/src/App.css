@@ -20,53 +20,82 @@
   padding: 8px 20px;
   border-radius: 50px;
   text-decoration: none;
-  transition: 0.3s background-color
+  transition: 0.3s background-color;
 }
 
 .login-button:hover {
   background-color: #00b383;
 }
 
-.navbar-togger {
+.navbar-toggler {
   border: none;
   font-size: 1.25rem;
 }
 
-.navbar-togger:focus, .btn-close:focus {
+.navbar-toggler:focus,
+.btn-close:focus {
   box-shadow: none;
-  outline: none
+  outline: none;
 }
 
 .nav-link {
-  color: #666777;
+  color: #666777; /* Default link color */
   font-weight: 500;
-  position: relative
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  padding: 10px 15px; /* Add some padding to the links */
 }
 
-.nav-link:hover, .nav-link:active {
-  color: #000
+/* Highlight the active nav link with green background */
+.nav-link.active {
+  background-color: #009970; /* Green background for active link */
+  color: white; /* Make the active link text white for contrast */
+  font-weight: bold; /* Make the active link bold */
+  border-radius: 5px; /* Rounded corners */
 }
 
-@media (min-width: 991px)
-{
+/* Add green underline to active link */
+.nav-link.active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: #009970;
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #000;
+  background-color: #f1f1f1; /* Light background on hover */
+}
+
+/* Media query for screens wider than 991px */
+@media (min-width: 991px) {
   .nav-link:before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 0;
-      height: 2px;
-      background-color: #009970;
-      visibility: hidden;
-      transition: 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #009970;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
   }
-  
+
   .nav-link:hover::before {
-      width: 100%;
-      visibility: visible;
+    width: 100%;
+    visibility: visible;
   }
 }
+
+
 
 .hero-section {
   background: url(../public/bus-background.jpg) no-repeat center;
@@ -100,6 +129,30 @@
 .hero-section h1 {
   font-size: 1.2em;
 }
+
+/* Add fade-in effect to title */
+.hero-section h1 {
+  opacity: 0;
+  animation: fadeIn 2s forwards; /* Fade-in animation */
+}
+
+.hero-section .other-title {
+  opacity: 0;
+  animation: fadeIn 2s forwards 0.5s; /* Fade-in with a delay for smooth transition */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* You can adjust the initial position if needed */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 /* Apply this CSS to minimize the font size of labels in the buses page */
 .login-hero .form-label {
@@ -294,23 +347,361 @@ p {
   font-size: 14px;
 }
 
-.edit-btn {
-  background-color: #4CAF50;
+.other-title {
+  font-size: 2rem; /* Adjust size as needed */
+}
+
+.home-title {
+  font-size: 3rem; /* Adjust size as needed */
+  font-weight: bold;
+}
+
+.home-content {
+  font-size: 1.5rem; /* Adjust size as needed */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #343a40; /* Dark background */
   color: white;
 }
 
-.delete-btn {
-  background-color: #f44336;
+.footer h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+  color: #00b383; /* Highlight color on hover */
+}
+
+.footer .social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .social-media a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer .social-media a:hover {
+  color: #00b383; /* Highlight color on hover */
+}
+
+.footer .row:last-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+}
+
+/* Ensure the body takes the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.main-content {
+  min-height: 100%;  /* Ensure content takes at least full height of the page */
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto; /* Push the footer to the bottom */
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
   color: white;
 }
 
-.edit-btn:hover {
-  background-color: #45a049;
+footer a:hover {
+  color: #00b383;
 }
 
-.delete-btn:hover {
-  background-color: #e53935;
+/* Center the "Meet the Team!" title */
+.aboutus-hero .about-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px; /* Space between the cards */
 }
+
+.aboutus-hero h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
+.about-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+  opacity: 0;
+  animation: slideIn 1s ease-out forwards;
+}
+
+/* Adjust animation for the second card to come in after a small delay */
+.about-card:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.about-card-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.about-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-card-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Social icon styling */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #666777;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #009970;
+}
+
+/* Keyframes for sliding animation */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Adjusting the Hero Section to fit content without overflowing */
+/* Adjust the Hero Section */
+.services-hero {
+  position: relative;
+  background: url(../public/bus-background-2.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 50vh; /* Adjust the min-height for better fitting */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.services-hero h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.services-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+/* Individual Service Cards */
+.service-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+
+.service-card i {
+  font-size: 50px;
+  color: #009970;
+}
+
+.service-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.service-card-description {
+  color: #666;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+/* Add space after hero section to prevent overlap */
+.services-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Prevent background from overflowing */
+.services-hero::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%; /* Ensure the overlay covers the hero section */
+  z-index: -1;
+}
+
+.notifications-hero {
+  padding-bottom: 50px; /* Space at the bottom of the hero */
+  padding-top: 240px; /* Add padding to the top to push the FAQ section down */
+}
+
+.faq-accordion-container {
+  margin-top: 30px; /* Adjust to make sure it stays below */
+}
+
+.faq-answer {
+  font-size: 0.9rem; /* Smaller font size for answers */
+  color: #666; /* Lighter color for the answers */
+}
+
+/* News page */
+.news-hero {
+  background: url(../public/bus-background-3.jpg) no-repeat center center; /* Correct the image source path */
+  background-size: cover;
+  position: relative;
+  padding: 50px 0; /* Adjust the padding */
+  min-height: 60vh; /* Ensure it covers enough height for content */
+  margin-top: 80px; /* Push content further down */
+}
+
+.news-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark overlay */
+  z-index: 0;
+}
+
+.news-hero .container {
+  position: relative;
+  z-index: 1; /* Content stays above overlay */
+  text-align: center;
+}
+
+.news-hero h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.news-hero .other-title {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #009970;
+  border-color: #009970;
+}
+
+.btn-primary:hover {
+  background-color: #00b383;
+  border-color: #00b383;
+}
+
+footer {
+  margin-top: auto; /* Ensures the footer stays at the bottom */
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 
 

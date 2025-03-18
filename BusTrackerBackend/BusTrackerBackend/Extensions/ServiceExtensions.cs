@@ -9,6 +9,7 @@ using Service.Contracts;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.AspNetCore.Authentication;
 
 namespace BusTrackerBackend.Extensions
 {
@@ -31,8 +32,14 @@ namespace BusTrackerBackend.Extensions
         public static void ConfigureLoggerService(this IServiceCollection services) => 
             services.AddSingleton<ILoggerManager, LoggerManager>();
 
-        public static void ConfigureRepositoryManager(this IServiceCollection services) => 
+        public static void ConfigureRepositoryManager(this IServiceCollection services)
+        {
+            // Register IUserRepository and its implementation
+            services.AddScoped<IUserRepository, UserRepository>();
+
+            // Other services, like IRepositoryManager
             services.AddScoped<IRepositoryManager, RepositoryManager>();
+        }
 
         public static void ConfigureServiceManager(this IServiceCollection services) =>
             services.AddScoped<IServiceManager, ServiceManager>();
@@ -56,9 +63,10 @@ namespace BusTrackerBackend.Extensions
                 options.Password.RequiredLength = 10;
                 options.User.RequireUniqueEmail = true;
             })
-            .AddEntityFrameworkStores<RepositoryContext>()  
+            .AddEntityFrameworkStores<RepositoryContext>()  // Ensure you're using the correct DbContext here
             .AddDefaultTokenProviders();
         }
+
 
         public static void ConfigureJWT(this IServiceCollection services, IConfiguration configuration)
         {

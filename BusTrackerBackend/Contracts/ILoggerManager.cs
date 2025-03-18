@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Logging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,5 +13,10 @@ namespace Contracts
         void LogWarn(string message);
         void LogDebug(string message);
         void LogError(string message);
+
+        void LogDebug(string message, params object[] args);
+        void LogError(string message, params object[] args);
+        void LogInfo(string message, params object[] args);
+        void LogWarn(string message, params object[] args);
     }
 }

@@ -2,6 +2,7 @@
 using Contracts;
 using Entities.Exceptions;
 using Entities.Models;
+using Microsoft.AspNetCore.Identity;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 using System;
@@ -44,6 +45,43 @@ namespace Service
             var customerBookingDto = _mapper.Map<CustomerBookingDto>(customerBooking);
             return customerBookingDto;
         }
+
+        public IEnumerable<CustomerBookingDto> GetCustomerBookingsForCustomer(Guid customerId, bool trackChanges)
+        {
+            // Ensure the user exists
+            var user = _repository.User.GetUserById(customerId, trackChanges);
+            if (user is null)
+            {
+                _logger.LogWarn("User not found for customerId: {CustomerId}", customerId);
+                throw new UserNotFoundException(customerId);
+            }
+            // Get the customer bookings from the repository
+            var customerBookingsFromDb = _repository.CustomerBooking.GetCustomerBookingsForCustomer(customerId, trackChanges);
+
+            // Map the result to DTO
+            var customerBookingsDto = _mapper.Map<IEnumerable<CustomerBookingDto>>(customerBookingsFromDb);
+
+            return customerBookingsDto;
+        }
+
+
+        public CustomerBookingDto GetCustomerBookingForCustomer(Guid customerId, Guid bookingId, bool trackChanges)
+        {
+            // Ensure the user exists
+            var user = _repository.User.GetUserById(customerId, trackChanges);
+            if (user is null)
+                throw new UserNotFoundException(customerId);
+
+            // Ensure the booking exists for the customer
+            var bookingDb = _repository.CustomerBooking.GetCustomerBookingForCustomer(customerId, bookingId, trackChanges);
+            if (bookingDb is null)
+                throw new CustomerBookingNotFoundException(bookingId);
+
+            var bookingDto = _mapper.Map<CustomerBookingDto>(bookingDb);
+            return bookingDto;
+        }
+
+
 
         public CustomerBookingDto CreateCustomerBooking(CustomerBookingForCreationDto customerBooking)
         {

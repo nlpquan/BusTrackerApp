@@ -11,6 +11,7 @@ namespace Contracts
         IBusRepository Bus { get; }
         ICustomerBookingRepository CustomerBooking { get; }
         IDriverTicketRepository DriverTicket { get; }
+        IUserRepository User { get; }
         void Save();
     }
 

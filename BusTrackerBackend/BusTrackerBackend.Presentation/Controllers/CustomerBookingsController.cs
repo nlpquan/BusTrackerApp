@@ -18,7 +18,7 @@ namespace BusTrackerBackend.Presentation.Controllers
         private readonly IServiceManager _service;
         public CustomerBookingsController(IServiceManager service) => _service = service;
 
-        [HttpGet(Name = "GetCustomerBookings")]
+        [HttpGet]
         public IActionResult GetCustomerBookings()
         {
             var customerBookings = _service.CustomerBookingService.GetAllCustomerBookings(trackChanges: false);
@@ -58,5 +58,7 @@ namespace BusTrackerBackend.Presentation.Controllers
             _service.CustomerBookingService.UpdateCustomerBooking(id, customerBooking, trackChanges: true);
             return NoContent();
         }
+
+        
     }
 }

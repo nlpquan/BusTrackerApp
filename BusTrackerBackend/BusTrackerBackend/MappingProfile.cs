@@ -12,7 +12,9 @@ namespace BusTrackerBackend
             CreateMap<Bus, BusDto>()
             .ForMember(c => c.PlateNumberAndModel,
             opt => opt.MapFrom(x => string.Join(' ', x.PlateNumber, x.Model)));
+
             CreateMap<CustomerBooking, CustomerBookingDto>();
+
             CreateMap<DriverTicket, DriverTicketDto>();
 
             CreateMap<BusForCreationDto, Bus>();

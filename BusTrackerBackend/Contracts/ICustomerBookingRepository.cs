@@ -11,6 +11,8 @@ namespace Contracts
     {
         IEnumerable<CustomerBooking> GetAllCustomerBookings(bool trackChanges);
         CustomerBooking GetCustomerBooking(Guid customerBookingId, bool trackChanges);
+        IEnumerable<CustomerBooking> GetCustomerBookingsForCustomer(Guid customerId, bool trackChanges);
+        CustomerBooking GetCustomerBookingForCustomer(Guid customerId, Guid id, bool trackChanges); 
         void CreateCustomerBooking(CustomerBooking customerBooking);
         void DeleteCustomerBooking(CustomerBooking customerBooking);
     }
