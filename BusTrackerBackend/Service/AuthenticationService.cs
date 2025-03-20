@@ -166,11 +166,12 @@ namespace Service
                 UserName = user.UserName,
                 Email = user.Email,
                 PhoneNumber = user.PhoneNumber,
-                Roles = await _userManager.GetRolesAsync(user) // Get roles associated with the user
+                Roles = await _userManager.GetRolesAsync(user), // Get roles associated with the user
             };
 
             return userDetails; // Return the UserDetailsDto
         }
+
 
 
     }

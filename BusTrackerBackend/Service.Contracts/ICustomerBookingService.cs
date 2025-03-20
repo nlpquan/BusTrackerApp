@@ -14,6 +14,8 @@ namespace Service.Contracts
         IEnumerable<CustomerBookingDto> GetCustomerBookingsForCustomer(Guid customerId, bool trackChanges);
         CustomerBookingDto GetCustomerBookingForCustomer(Guid customerId, Guid bookingId, bool trackChanges);
         CustomerBookingDto CreateCustomerBooking(CustomerBookingForCreationDto customerBooking);
+        CustomerBookingDto CreateCustomerBookingForCustomer(Guid customerId, CustomerBookingForCreationDto
+customerBookingForCreation, bool trackChanges);
         void DeleteCustomerBooking(Guid customerBookingId, bool trackChanges);
         void UpdateCustomerBooking(Guid customerBookingId, CustomerBookingForUpdateDto customerBookingForUpdate, bool trackChanges);
 

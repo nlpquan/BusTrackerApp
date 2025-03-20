@@ -19,7 +19,7 @@ namespace BusTrackerBackend.Presentation.Controllers
         public BusesController(IServiceManager service) => _service = service;
 
         [HttpGet(Name = "GetBuses")]
-        [Authorize(Roles = "Administrator")]
+        
         public IActionResult GetCompanies()
         {
             var buses = _service.BusService.GetAllBuses(trackChanges: false);
@@ -29,7 +29,7 @@ namespace BusTrackerBackend.Presentation.Controllers
 
 
         [HttpGet("{id:guid}", Name = "BusById")]
-        [Authorize(Roles = "Administrator")]
+        
         public IActionResult GetBus(Guid id)
         {
             var company = _service.BusService.GetBus(id, trackChanges: false);
@@ -37,7 +37,7 @@ namespace BusTrackerBackend.Presentation.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Administrator")]
+        
         public IActionResult CreateBus([FromBody] BusForCreationDto bus)
         {
             if (bus is null)
@@ -48,7 +48,7 @@ namespace BusTrackerBackend.Presentation.Controllers
         }
 
         [HttpDelete("{id:guid}")]
-        [Authorize(Roles = "Administrator")]
+        
         public IActionResult DeleteBus(Guid id)
         {
             _service.BusService.DeleteBus(id, trackChanges: false);
@@ -56,7 +56,7 @@ namespace BusTrackerBackend.Presentation.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        [Authorize(Roles = "Administrator")]
+        
         public IActionResult UpdateBus(Guid id, [FromBody] BusForUpdateDto bus)
         {
             if (bus is null)

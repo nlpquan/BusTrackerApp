@@ -102,7 +102,7 @@ namespace BusTrackerBackend.Presentation.Controllers
 
 
 
-        [HttpGet("users")]
+        [HttpGet("userdetails")]
         public async Task<IActionResult> GetUserDetails()
         {
             var username = User.Identity?.Name; // Get the username from token claims

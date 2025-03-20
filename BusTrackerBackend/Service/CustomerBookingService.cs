@@ -92,6 +92,20 @@ namespace Service
             return customerBookingToReturn;
         }
 
+        public CustomerBookingDto CreateCustomerBookingForCustomer(Guid customerId, CustomerBookingForCreationDto
+bookingForCreation, bool trackChanges)
+        {
+            var user = _repository.User.GetUserById(customerId, trackChanges);
+            if (user is null)
+                throw new UserNotFoundException(customerId);
+
+            var bookingEntity = _mapper.Map<CustomerBooking>(bookingForCreation);
+            _repository.CustomerBooking.CreateCustomerBookingForCustomer(customerId, bookingEntity);
+            _repository.Save();
+            var bookingToReturn = _mapper.Map<CustomerBookingDto>(bookingEntity);
+            return bookingToReturn;
+        }
+
         public void DeleteCustomerBooking(Guid customerBookingId, bool trackChanges)
         {
             var customerBooking = _repository.CustomerBooking.GetCustomerBooking(customerBookingId, trackChanges);

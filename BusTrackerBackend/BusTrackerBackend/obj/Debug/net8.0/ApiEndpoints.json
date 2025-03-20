@@ -34,7 +34,7 @@
   {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.AuthenticationController",
     "Method": "GetUserDetails",
-    "RelativePath": "api/authentication/users",
+    "RelativePath": "api/authentication/userdetails",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -301,6 +301,27 @@
   },
   {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsForCustomerController",
+    "Method": "CreateCustomerBookingForCustomer",
+    "RelativePath": "api/users/{customerId}/customerbookings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "customerBooking",
+        "Type": "Shared.DataTransferObjects.CustomerBookingForCreationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsForCustomerController",
     "Method": "GetCustomerBookingForCustomer",
     "RelativePath": "api/users/{customerId}/customerbookings/{id}",
     "HttpMethod": "GET",
@@ -319,7 +340,7 @@
       }
     ],
     "ReturnTypes": [],
-    "EndpointName": "GetCustomerBookingByIdForCustomer"
+    "EndpointName": "GetCustomerBookingForCustomer"
   },
   {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.CustomerBookingsForCustomerController",

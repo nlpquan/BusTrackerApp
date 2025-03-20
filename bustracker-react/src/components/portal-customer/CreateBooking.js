@@ -113,10 +113,10 @@ const PortalCustomerCreateBooking = () => {
               <label htmlFor="numberOfSeats" className="form-label">Number of Seats</label>
               <input
                 type="number"
-                id="numberOfSeats"
-                name="numberOfSeats"
+                id="capacity"
+                name="capacity"
                 className="form-control"
-                value={formData.numberOfCapacity}
+                value={formData.capacity}
                 onChange={handleChange}
                 min="1"
                 max="19"

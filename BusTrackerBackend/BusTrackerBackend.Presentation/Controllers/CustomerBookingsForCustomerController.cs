@@ -4,6 +4,7 @@ using Service.Contracts;
 using Shared.DataTransferObjects;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,7 +42,7 @@ namespace BusTrackerBackend.Presentation.Controllers
         }
 
         // Route to get a specific booking for a customer (by customerId and bookingId)
-        [HttpGet("{id:guid}", Name = "GetCustomerBookingByIdForCustomer")]
+        [HttpGet("{id:guid}", Name = "GetCustomerBookingForCustomer")]
         public IActionResult GetCustomerBookingForCustomer(Guid customerId, Guid id)
         {
             var customerBooking = _service.CustomerBookingService.GetCustomerBookingForCustomer(customerId, id, trackChanges: false);
@@ -49,16 +50,20 @@ namespace BusTrackerBackend.Presentation.Controllers
         }
 
         // Route to create a new customer booking for a specific customer
-        //[HttpPost]
-        //public IActionResult CreateCustomerBookingForCustomer(Guid customerId, [FromBody] CustomerBookingForCreationDto customerBooking)
-        //{
-        //    if (customerBooking is null)
-        //        return BadRequest("CustomerBookingForCreationDto object is null");
+        [HttpPost]
+        public IActionResult CreateCustomerBookingForCustomer(Guid customerId, [FromBody] CustomerBookingForCreationDto customerBooking)
+        {
+            if (customerBooking is null)
+                return BadRequest("CustomerBookingForCreationDto object is null");
+            var bookingToReturn =
+            _service.CustomerBookingService.CreateCustomerBookingForCustomer(customerId, customerBooking, trackChanges:
+            false);
+            return CreatedAtRoute("GetCustomerBookingForCustomer", new {customerId, id =
+            bookingToReturn.Id
+            },
+            bookingToReturn);
 
-        //    customerBooking.CustomerId = customerId;  // Ensure customerId is set for the booking
-        //    var createdCustomerBooking = _service.CustomerBookingService.CreateCustomerBooking(customerBooking);
-        //    return CreatedAtRoute("GetCustomerBookingByIdForCustomer", new { customerId = createdCustomerBooking.CustomerId, id = createdCustomerBooking.Id }, createdCustomerBooking);
-        //}
+        }
 
         // Route to delete a customer booking for a specific customer
         [HttpDelete("{id:guid}")]

@@ -282,7 +282,7 @@ function App() {
   return (
     <AuthProvider>
       <Router>
-        <div > 
+        <div>
           <Navbar /> {/* Conditionally render the Navbar here */}
           {/* Define Routes here */}
           <Routes>
@@ -294,58 +294,15 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
 
-            {/* Protected Routes */}
-            <Route
-              path="/portaladmin"
-              element={
-                <ProtectedRoute roles={['Admin']}>
-                  <PortalAdmin />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/portalcustomer"
-              element={
-                <ProtectedRoute roles={['Customer']}>
-                  <PortalCustomer />
-                </ProtectedRoute>
-              }
-            />
+            {/* Protected Routes (Disabled Security) */}
+            <Route path="/portaladmin" element={<PortalAdmin />} />
+            <Route path="/portalcustomer" element={<PortalCustomer />} />
             {/* Add the new route for bookings */}
-            <Route
-              path="/portalcustomer/bookings"
-              element={
-                <ProtectedRoute roles={['Customer']}>
-                  <PortalCustomerBooking /> {/* Render the Bookings component */}
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/portalcustomer/create"
-              element={
-                <ProtectedRoute roles={['Customer']}>
-                  <PortalCustomerCreateBooking /> {/* Render the Bookings component */}
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/portalcustomer/routes"
-              element={
-                <ProtectedRoute roles={['Customer']}>
-                  <PortalCustomerRoutes /> {/* Render the Bookings component */}
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/portaldriver"
-              element={
-                <ProtectedRoute roles={['Driver']}>
-                  <PortalDriver />
-                </ProtectedRoute>
-              }
-            />
+            <Route path="/portalcustomer/bookings" element={<PortalCustomerBooking />} />
+            <Route path="/portalcustomer/create" element={<PortalCustomerCreateBooking />} />
+            <Route path="/portalcustomer/routes" element={<PortalCustomerRoutes />} />
+            <Route path="/portaldriver" element={<PortalDriver />} />
             <Route path="/forbidden" element={<Forbidden />} />
-
           </Routes>
           <Footer />
         </div>
@@ -353,6 +310,7 @@ function App() {
     </AuthProvider>
   );
 }
+
 
 // Navbar Component - Conditionally Rendered
 const Navbar = () => {

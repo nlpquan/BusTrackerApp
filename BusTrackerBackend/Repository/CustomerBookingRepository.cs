@@ -48,6 +48,12 @@ namespace Repository
 
 
         public void CreateCustomerBooking(CustomerBooking customerBooking) => Create(customerBooking);
+        public void CreateCustomerBookingForCustomer(Guid customerId, CustomerBooking booking)
+        {
+            booking.CustomerId = customerId;
+            Create(booking);
+        }
+
         public void DeleteCustomerBooking(CustomerBooking customerBooking) => Delete(customerBooking);
     }
 }
