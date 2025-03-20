@@ -1,6 +1,6 @@
-﻿# Bus Tracker Application
+﻿# Bus Booking Application
 
-This repository contains both the backend (C#) and frontend (React) for the Bus Tracker application. Follow the instructions below to set up both the backend and frontend.
+This repository contains both the backend (C#) and frontend (React) for the Bus Booking application. Follow the instructions below to set up both the backend and frontend.
 
 ## Backend (C#)
 
