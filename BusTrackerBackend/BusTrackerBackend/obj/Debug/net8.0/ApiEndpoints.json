@@ -1,5 +1,22 @@
 [
   {
+    "ContainingType": "BusTrackerBackend.Presentation.Controllers.RootController",
+    "Method": "GetRoot",
+    "RelativePath": "api",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetRoot"
+  },
+  {
     "ContainingType": "BusTrackerBackend.Presentation.Controllers.AuthenticationController",
     "Method": "RegisterUser",
     "RelativePath": "api/authentication",
